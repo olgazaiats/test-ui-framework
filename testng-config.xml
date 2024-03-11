@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test suite">
+    <test name="Test">
+        <groups>
+            <define name="validcases">
+                <include name="valid"></include>
+            </define>
+            <run>
+                <include name="valid"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="vwo.LoginTest"></class>
+        </classes>
+
+    </test>
+</suite>
