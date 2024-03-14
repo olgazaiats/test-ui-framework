@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 
 public class DashboardPage extends CommonPage {
 
-    By usernameOnDashboard = By.cssSelector("[data-qa=\"lufexuloga\"]");
+    private By usernameOnDashboard = By.cssSelector("[data-qa=\"lufexuloga\"]");
 
     public DashboardPage(WebDriver driver) {
         super(driver);

@@ -13,7 +13,7 @@ public class LoginTest extends BaseTest {
 
     @Test(groups = {"valid"})
     public void loginValidTest() throws Exception {
-        String username = PropertyReader.getValueFromProperties("username");
+        String username = PropertyReader.readKey("username");
         String password = PropertyReader.readKey("password");
 
         driver.get(PropertyReader.readKey("url"));

@@ -31,9 +31,4 @@ public class PropertyReader {
         }
     }
 
-    public static String getValueFromProperties(String key) throws Exception {
-        return readKey(key);
-    }
-
-
 }
